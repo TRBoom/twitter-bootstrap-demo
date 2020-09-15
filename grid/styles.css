@@ -1,0 +1,29 @@
+.border-blue {
+    border: 1px solid blue;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+.bg-row {
+    height:200px;
+    border:1px solid gray
+}
+
+.bg-box {
+    background: #f4f4f4;
+    height: 250px;
+}
+
+.bg-item {
+    border: 1px solid #333;
+}
+
+.text-small {
+    font-size: .7rem;
+}

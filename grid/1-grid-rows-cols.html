@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inlude Bootstrap CSS first -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Grid - Rows &amp; Cols</title>
+</head>
+
+<body>
+    <h1 class="text-center my-5">Bootstrap Grid - Rows &amp; Cols</h1>
+
+    <!-- Edit below this line -->
+    <div>
+
+        <!-- Responsive Grid -->
+        <div>
+            <div class="border">
+                <ul>
+                    <li>6 column on small screens</li>
+                    <li>8 column on medium screen</li>
+                    <li>9 column on large screen</li>
+                    <li>10 column on xlarge screen</li>
+                </ul>
+            </div>
+            <div class="border">
+                <ul>
+                    <li>6 column on small screens</li>
+                    <li>4 column on medium screen</li>
+                    <li>3 column on large screen</li>
+                    <li>2 column on xlarge screen</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Equal Width -->
+        <div>
+            <div class="border">Equal Width</div>
+            <div class="border">Equal Width</div>
+            <div class="border">Equal Width</div>
+            <div class="border">Equal Width</div>
+        </div>
+
+        <!-- Equal Width Stacked -->
+        <div>
+            <div class="border">Equal Width Stacked</div>
+            <div class="border">Equal Width Stacked</div>
+            <div class="border">Equal Width Stacked</div>
+        </div>
+
+        <!-- Auto Layout -->
+        <div>
+            <div class="border">Auto Layout</div>
+            <div class="border">Auto Layout</div>
+            <div class="border">Auto Layout</div>
+        </div>
+
+        <!-- Ordering -->
+        <div>
+            <div class="border">First</div>
+            <div class="border">Second</div>
+            <div class="border">Third</div>
+        </div>
+
+        <!-- Offsetting -->
+        <div>
+            <!-- 6 column div offset by 3 -->
+            <div class="border">.col-md-6 .offset-md-3</div>
+        </div>
+
+        <div>
+            <!-- 2 4 column divs, the second offset by 4 -->
+            <div class="border">.col-md-4</div>
+            <div class="border">.col-md-4 .offset-md-4</div>
+        </div>
+
+        <div>
+            <!-- 2 3 column divs, both offset by 3 -->
+            <div class="border">.col-md-3 .offset-md-3</div>
+            <div class="border">.col-md-3 .offset-md-3</div>
+        </div>
+
+        <!-- Nesting -->
+        <div>
+            <div class="border-blue">
+                Level 1: .col-sm-9
+                <div>
+                    <div class="border-green">
+                        Level 2: .col-8 .col-sm-6
+                    </div>
+                    <div class="border-red">
+                        Level 2: .col-4 .col-sm-6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inlude the required JavaScript files before the closing tag of body -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
